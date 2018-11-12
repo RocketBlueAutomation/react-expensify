@@ -2,7 +2,7 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Mike Seiler",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
@@ -46,5 +46,10 @@
     "jest": "20.0.4",
     "react-test-renderer": "15.6.1",
     "webpack-dev-server": "2.5.1"
+  }
+  {
+    "optionalDependencies": {
+      "fsevents": "*"
+    }
   }
 }
